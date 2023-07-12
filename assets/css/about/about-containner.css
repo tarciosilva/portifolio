@@ -1,0 +1,15 @@
+.about__containner {
+    padding: 2rem;
+}
+@media screen 
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .about__containner {
+        align-items: center;
+        display: flex;
+    }
+    .about__containner div {
+        max-width: 50vw;
+        padding-right: 5rem;
+    }
+}

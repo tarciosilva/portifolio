@@ -1,0 +1,27 @@
+.header__containner__cover {
+    border: 1px solid var(--base-color);
+    border-radius: 50%;
+    box-shadow: 1px 0 5px var(--cover-shadow);
+    margin: 1rem;
+    position: relative;
+    width: 50vw;
+    transition: all .5s ease-in-out;
+    
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .header__containner__cover {
+        max-width: 150px;
+        position: absolute;
+    }
+}
+@media screen 
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .header__containner__cover {
+        max-width: 350px;
+    } 
+}
+

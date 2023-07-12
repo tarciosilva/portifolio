@@ -1,0 +1,25 @@
+.resume {
+    background-color: var(--back-color);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    position: relative;
+    width: 100%;
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .resume{
+        gap: 0;
+        justify-content: space-between;
+    }
+}
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .resume{
+        align-items: center;
+    }
+}

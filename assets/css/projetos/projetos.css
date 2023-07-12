@@ -1,0 +1,19 @@
+.projetos {
+    align-items: center;
+    background-color: var(--section-bg);
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 2rem;
+}
+@media screen 
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .projetos {
+        justify-content: space-around;
+        justify-items: center;
+    }
+    .projetos div {
+        max-width: 80vw;
+    }
+}

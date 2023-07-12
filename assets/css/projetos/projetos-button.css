@@ -1,0 +1,18 @@
+.projetos__buttons {
+    background: none;
+    border: 2px solid var(--cover-shadow);
+    border-radius: 1px;
+    color: var(--base-color);
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+}
+
+.projetos__buttons--repositorio {
+    background-color: var(--cover-shadow);
+}
+
+.projetos__buttons:hover {
+    cursor: pointer;
+    background-color: var(--button-hover-bg);
+}

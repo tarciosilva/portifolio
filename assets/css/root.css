@@ -1,0 +1,14 @@
+:root {
+    font-size: 62.5%;
+    --back-color: #252525;
+    --base-color: white;
+    --body-color: #1b1a1a;
+    --base-font: 'Quicksand', sans-serif;
+    --button-hover-bg: blueviolet;
+    --cover-shadow: rgb(6, 171, 208);
+    --footer-logo: url('../../img/footer_logo.svg');
+    --header-bg: url('../../img/bg.jpg');
+    --logo-tsilva: url('../../img/tsilva.svg');
+    --nav-bg: url('../../../img/bg.jpg');
+    --section-bg: rgba(0, 153, 255, 0.153);
+}

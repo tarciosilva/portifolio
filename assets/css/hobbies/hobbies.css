@@ -1,0 +1,14 @@
+.hobbies {
+    align-items: center;
+    background-color: var(--section-bg);
+    display: flex;
+    flex-direction: column;
+}
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .hobbies {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

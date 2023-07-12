@@ -1,0 +1,12 @@
+.skills__containner {
+    display: flex;
+    transition: .5s;
+}
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .skills__containner {
+        max-width: 50vw;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,27 @@
+.header__containner {
+    align-items: center;
+    background-color: var(--back-color);
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .header__containner{
+        flex-direction: row;
+        height: 250px;
+        justify-content: center;
+    }
+}
+@media screen 
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .header__containner {
+        background: var(--header-bg);
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

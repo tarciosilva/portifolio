@@ -1,0 +1,5 @@
+.footer__logo {
+    aspect-ratio: 9/2;
+    object-fit: cover;
+    background: var(--footer-logo) no-repeat center / contain;
+}

@@ -1,0 +1,26 @@
+.projetos__containner {
+    align-items: center;
+    border: 1px solid var(--base-color);
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .projetos__containner {
+        align-content: space-between;
+        border: none;
+        max-width: 80vw;
+    }
+}
+@media screen 
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .projetos__containner {
+        border: none;
+        max-width: 100%;
+        padding: 2rem;
+    }
+}

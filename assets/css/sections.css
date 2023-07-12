@@ -1,0 +1,23 @@
+.sections {    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.sections div {
+    border: 1px solid var(--cover-shadow);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sections div img {
+    display: flex;
+    max-width: 200px;
+    padding: 1rem 1rem;
+    position: relative;
+    transform: scale(.95);
+    transition: .5s ease-in-out;
+    width: 30vw;
+}

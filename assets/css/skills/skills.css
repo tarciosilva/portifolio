@@ -1,0 +1,16 @@
+.skills {
+    align-items: center;
+    background-color: var(--back-color);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .skills {
+        flex-direction: row;
+        justify-content: space-around;
+        transition: .5s ease-in-out;
+    }
+}

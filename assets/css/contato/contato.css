@@ -1,0 +1,24 @@
+.contato {
+    align-items: center;
+    background-color: var(--back-color);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.contato label {
+    color: var(--base-color);
+    font-size: 1.5rem;
+}
+.contato textarea {
+    font-size: 2rem;
+    height: 10vh;
+    resize: none;
+}
+@media screen 
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .contato {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}
