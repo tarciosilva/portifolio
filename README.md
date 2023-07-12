@@ -90,14 +90,20 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Este projeto consiste na construção de um portfólio utilizando as tecnologias HTML5 e CSS3, juntamente com boas práticas de programação, como o uso do BEM (Block Element Modifier) e a modularização do código. Além disso, serão aplicadas media queries para garantir uma alta responsividade do projeto, adaptando-o a diferentes tamanhos de tela.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+O HTML5 será utilizado para criar a estrutura semântica do portfólio, garantindo uma organização lógica dos elementos e melhorando a acessibilidade. Serão utilizadas as tags adequadas, como `<header>`, `<nav>`, `<section>`, `<article>` e `<footer>`, para criar uma hierarquia clara e significativa.
+
+O CSS3 será responsável pela estilização do portfólio, utilizando folhas de estilo externas para separar a apresentação do conteúdo. Serão aplicadas técnicas de CSS avançadas, como flexbox e grid, para criar layouts flexíveis e responsivos. Além disso, serão utilizadas animações e transições para adicionar interatividade e melhorar a experiência do usuário.
+
+Para seguir as boas práticas de programação, o projeto utilizará o BEM, um método de nomenclatura de classes CSS que promove a reutilização e a manutenção do código. Com o BEM, as classes são nomeadas de forma descritiva e modular, facilitando a compreensão e evitando conflitos de estilos.
+
+Além disso, o código será modularizado, dividindo-o em componentes reutilizáveis e independentes. Isso permitirá uma melhor organização do projeto, facilitando a manutenção e a adição de novas funcionalidades no futuro.
+
+A implementação de media queries será essencial para garantir a alta responsividade do portfólio. As media queries serão utilizadas para adaptar o layout e os estilos do portfólio a diferentes tamanhos de tela, como smartphones, tablets e desktops. Dessa forma, o portfólio será exibido de forma adequada em qualquer dispositivo, proporcionando uma experiência consistente para os usuários.
+
+Em resumo, este projeto de portfólio em HTML5 e CSS3 utiliza boas práticas de programação, como o BEM e a modularização do código, para garantir um código limpo, organizado e reutilizável. Além disso, a implementação de media queries garante uma alta responsividade, adaptando o projeto a diferentes dispositivos. O resultado final será um portfólio atraente, interativo e acessível, que destacará as habilidades e trabalhos do desenvolvedor de forma profissional.
 
 Use the `BLANK_README.md` to get started.
 
