@@ -30,23 +30,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="/assets/img/tsilva.svg" alt="Logo" width="80" height="80">
+  <a href="https://github.com/tarciosilva/portifolio">
+    <img src="/assets/img/tsilva.svg" alt="Logo" width="250" height="250">
   </a>
 
   <h3 align="center">Portifólio: Tarcio Silva</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Um portfólio pessoal para apresentar meus trabalhos e habilidades
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="#"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="#">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="#">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="#">Request Feature</a>
   </p>
 </div>
 
@@ -211,9 +211,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Tarcio Pereira da Silva - tarciopereirasilva@outlook.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/tarciosilva/portifolio/](https://github.com/tarciosilva/portifolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
