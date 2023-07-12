@@ -30,7 +30,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<<<<<<< HEAD
   <a href="https://github.com/tarciosilva/portifolio">
     <img src="/assets/img/tsilva.svg" alt="Logo" width="250" height="250">
   </a>
