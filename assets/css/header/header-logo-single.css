@@ -1,0 +1,16 @@
+.header__logo__single {
+    background: var(--footer-logo) no-repeat center / cover;
+    display: none;
+    transform: rotate(45deg);
+    transition: .5s ease-in-out;
+}
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .header__logo__single {
+        aspect-ratio: 3/4;
+        display: flex;
+        width: 34vw;
+    }
+}

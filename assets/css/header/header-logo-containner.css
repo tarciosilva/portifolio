@@ -1,4 +1,4 @@
-.header__containner__adress {
+.header__logo__containner {
     align-items: center;
     border-bottom: 1px solid var(--base-color);
     display: flex;
@@ -11,7 +11,7 @@
 @media only screen 
   and (min-device-width: 768px) 
   and (-webkit-min-device-pixel-ratio: 1) {
-    .header__containner__adress {
+    .header__logo__containner {
         border: none;
         justify-content: space-between;
         padding: 0 10rem;
@@ -20,7 +20,7 @@
 @media screen 
   and (min-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
-    .header__containner__adress {
+    .header__logo__containner {
         border: none;
         flex-direction: column;
         margin: 0 0;
