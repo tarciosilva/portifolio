@@ -30,13 +30,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<<<<<<< HEAD
   <a href="https://github.com/tarciosilva/portifolio">
     <img src="/assets/img/tsilva.svg" alt="Logo" width="250" height="250">
-=======
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="/assets/img/tsilva.svg" alt="Logo" width="200" height="200">
->>>>>>> d11910aabdf22b88022bd0157f407914946557d3
   </a>
 
   <h3 align="center">Portifólio: Tarcio Silva</h3>
