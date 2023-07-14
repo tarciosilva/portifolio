@@ -4,6 +4,18 @@
     transform: rotate(45deg);
     transition: .5s ease-in-out;
 }
+/* iphone landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .header__logo__single {
+        aspect-ratio: 3/4;
+        display: flex;
+        width: 34vw;
+    }
+}
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)

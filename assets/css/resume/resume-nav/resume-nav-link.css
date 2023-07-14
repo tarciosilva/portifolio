@@ -3,8 +3,6 @@
     font-size: 1.55rem;
     text-decoration: none;
 }
-
-
 .resume__nav__list__link::after {
     content: "\1F865";
     padding: 0 .2rem;
@@ -14,8 +12,6 @@
     content: "\1F885";
     color: var(--button-hover-bg);
 }
-
-
 @media screen 
   and (min-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {

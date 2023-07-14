@@ -3,6 +3,18 @@
     display: flex;
     width: 100vw;
 }
+/* iphone landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .resume__nav {
+      border-bottom: 1px solid var(--base-color);
+      padding-bottom: 1rem;
+      position: absolute;
+  }
+}
 @media only screen 
   and (min-device-width: 768px)
   and (-webkit-min-device-pixel-ratio: 1) {

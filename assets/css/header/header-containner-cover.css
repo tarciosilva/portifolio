@@ -6,7 +6,17 @@
     position: relative;
     width: 50vw;
     transition: all .5s ease-in-out;
-    
+}
+/* iphone landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .header__containner__cover {
+      max-width: 150px;
+      position: absolute;
+  }
 }
 @media only screen 
   and (min-device-width: 768px) 
