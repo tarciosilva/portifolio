@@ -4,12 +4,12 @@
     text-decoration: none;
 }
 .resume__nav__list__link::after {
-    content: "\1F865";
-    padding: 0 .2rem;
+    content: ' >';
+    position: absolute;
+    transform: rotate(-45deg);
     transition: .5s ease-in-out;
 }
 .resume__nav__list__link:hover::after {
-    content: "\1F885";
     color: var(--button-hover-bg);
 }
 /* iphone landscape */
@@ -29,6 +29,17 @@
   and (min-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .resume__nav__list__link {
-        font-size: 2.5rem;
+        color: var(--cover-shadow);
+        font-size: 2rem;
+        text-decoration: none;
+    }
+    .resume__nav__list__link::after {
+        content: "\1F865";
+        margin-left: .5rem;
+        transform: rotate(calc(45deg/2));
+    }
+    .resume__nav__list__link:hover::after {
+        content: "\1F885";
+        color: var(--button-hover-bg);
     }
 }
