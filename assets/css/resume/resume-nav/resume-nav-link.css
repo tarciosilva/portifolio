@@ -12,26 +12,11 @@
 .resume__nav__list__link:hover::after {
     color: var(--button-hover-bg);
 }
-/* iphone landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    .resume__nav__list__link::after {
-        content: ' >';
-        position: absolute;
-        transform: rotate(-45deg);
-        transition: .5s ease-in-out;
-    }
-}
 @media screen 
   and (min-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .resume__nav__list__link {
-        color: var(--cover-shadow);
         font-size: 2rem;
-        text-decoration: none;
     }
     .resume__nav__list__link::after {
         content: "\1F865";
@@ -40,6 +25,5 @@
     }
     .resume__nav__list__link:hover::after {
         content: "\1F885";
-        color: var(--button-hover-bg);
     }
 }
