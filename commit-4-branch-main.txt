@@ -1,1 +1,2 @@
-teste de conectividade
+teste de conectividade - ok
+teste troca de url http -> ssh
